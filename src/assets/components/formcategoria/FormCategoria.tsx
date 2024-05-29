@@ -71,11 +71,11 @@ function FormCategoria() {
 
     return (
         <div className="container min-h-[70vh] flex flex-col items-center justify-center mx-auto">
-            <h1 className="text-4xl text-center my-8">
+            <h1 className="text-4xl text-center my-6">
                 {id === undefined ? 'Cadastrar Categoria' : 'Editar Categoria'}
             </h1>
 
-            <form className="w-1/2 flex flex-col gap-4"
+            <form className="w-1/2 flex flex-col gap-6"
                 onSubmit={gerarNovaCategoria}
             >
                 <div className="flex flex-col gap-2 ">
@@ -92,7 +92,7 @@ function FormCategoria() {
                 </div>
                 <button
                     className="rounded text-slate-100 bg-slate-400 
-                 hover:bg-slate-800 w-1/2 py-2 mx-auto flex justify-center"
+                 hover:bg-cyan-600 w-1/2 py-2 mx-auto flex justify-center"
                     type="submit"
                 >
                     {isLoading ?

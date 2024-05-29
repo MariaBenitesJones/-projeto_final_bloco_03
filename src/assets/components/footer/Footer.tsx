@@ -13,13 +13,13 @@ function Footer() {
                     </p>
                     <p className='text-lg'>Acesse nossas redes sociais</p>
                     <div className='flex gap-2'>
-                        <a href="https://github.com/conteudoGeneration/" target="_blank">
+                        <a href="https://github.com/MariaBenitesJones" target="_blank">
                             <GithubLogo size={48} weight='bold' />
                         </a>
-                        <a href="https://www.linkedin.com/school/generationbrasil" target="_blank">
+                        <a href="https://www.linkedin.com/in/maria-eduarda-jones/" target="_blank">
                             <LinkedinLogo size={48} weight='bold' />
                         </a>
-                        <a href="https://www.instagram.com/generationbrasil" target="_blank">
+                        <a href="https://www.instagram.com/maribenites.o/" target="_blank">
                             <InstagramLogo size={48} weight='bold' />
                         </a>
                     </div>

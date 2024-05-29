@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 function Home() {
     return (
         <>
-            <div className="bg-slate-300 w-screen flex justify-center">
+            <div className="bg-slate-300 min-h-[70vh] w-screen flex justify-center">
                 <div className="container grid grid-cols-2 text-white">
                     <div className=" flex flex-col items-center gap-4 justify-center py-4">
                         <h3 className="text-5xl font-bold">Farmácia Benites Jones</h3>
                         <p className="text-xl">No que podemos te ajudar?</p>
                         <div className="flex justify-around gap-4">
-              <button className='rounded  bg-cyan-600 text-white py-2 px-4'>Categoria dos produtos</button>
+            <Link to={'/categorias'}><button className='rounded  bg-cyan-600 text-white py-2 px-4'>Categoria dos produtos</button></Link>
             </div>
             </div>
 
